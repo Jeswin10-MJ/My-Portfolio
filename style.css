@@ -461,5 +461,13 @@ p {
         padding-left: 0px; /* Adjust padding to fit mobile */
         padding-right: 0px;
     }
+  .navbar-brand{
+    padding-left: 20px;
+  }
+   
+  .navbar-toggler{
+    margin-right: 20px;
+    
+  }
 }
 
