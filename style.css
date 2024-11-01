@@ -186,7 +186,7 @@ nav ul li a {
   border-radius: 15px;
   box-shadow: 0 0 15px 10px rgba(0, 240, 255, 0.1);
   width: 300px;
-  margin: 20px;
+  margin: auto;
   transition: transform 0.3s ease;
 }
 
@@ -449,3 +449,17 @@ p {
 .contact-form .btn:hover {
   background-color: #00cce7;
 }
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 0; /* Remove any unwanted padding on the body */
+        margin: 0;  /* Remove any unwanted margin */
+    }
+
+    .container {
+        padding-left: 0px; /* Adjust padding to fit mobile */
+        padding-right: 0px;
+    }
+}
+
